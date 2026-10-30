@@ -1,0 +1,19 @@
+{
+  "name": "smartstock-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SmartStock AI - Inventory, Procurement & Supply Chain ERP",
+  "scripts": {
+    "install:all": "npm run install:server && npm run install:client",
+    "install:server": "npx -y npm@11.21.1 install --prefix server",
+    "install:client": "npx -y npm@11.21.1 install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "test": "npm test --prefix server",
+    "lint": "npm run lint --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment files hold secrets - only the .env.example templates are committed
+.env
+.env.*
+!.env.example
+
+# Build and test output
+dist/
+coverage/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
